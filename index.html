@@ -165,6 +165,48 @@ footer{margin-top:60px;border-top:1px solid var(--line);padding:28px 24px;color:
  .toolbar{align-items:stretch}.sort{width:100%}
 }
 @media(max-width:350px){.grid{grid-template-columns:1fr 1fr}.logo{font-size:18px}}
+
+/* CINEMATIC BACKGROUND — FINAL UI */
+html{background:#07090d}
+body{
+ background:
+  radial-gradient(900px 520px at 50% -120px,rgba(255,104,71,.11),transparent 65%),
+  radial-gradient(700px 500px at 100% 35%,rgba(255,104,71,.035),transparent 70%),
+  radial-gradient(700px 500px at 0% 70%,rgba(110,120,140,.028),transparent 70%),
+  linear-gradient(180deg,#080a0f 0%,#090c12 45%,#07090d 100%) !important;
+ background-attachment:fixed !important;
+}
+body::before{
+ content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:.16;
+ background-image:linear-gradient(rgba(255,255,255,.014) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.011) 1px,transparent 1px);
+ background-size:56px 56px;
+ mask-image:linear-gradient(to bottom,rgba(0,0,0,.75),transparent 90%);
+}
+body::after{
+ content:"";position:fixed;width:520px;height:520px;left:50%;top:60px;transform:translateX(-50%);
+ pointer-events:none;z-index:-1;border-radius:50%;
+ background:radial-gradient(circle,rgba(255,104,71,.045),transparent 68%);filter:blur(18px);
+}
+header{
+ background:rgba(7,9,13,.72) !important;
+ backdrop-filter:blur(18px) saturate(120%);-webkit-backdrop-filter:blur(18px) saturate(120%);
+}
+.movie{
+ background:rgba(14,17,23,.72);
+ box-shadow:0 8px 28px rgba(0,0,0,.16);
+}
+.movie:hover{border-color:rgba(255,104,71,.22);box-shadow:0 16px 38px rgba(0,0,0,.34),0 0 24px rgba(255,104,71,.045)}
+.info{background:linear-gradient(180deg,rgba(14,17,23,.94),rgba(10,13,18,.98))}
+
+
+.social-links{display:flex;justify-content:center;align-items:center;gap:10px;margin-top:16px}
+.social-link{
+ width:42px;height:42px;border:1px solid #293241;border-radius:11px;background:#10151e;
+ color:#aeb7c5;display:grid;place-items:center;transition:.2s;cursor:pointer
+}
+.social-link:hover{color:#fff;border-color:#465267;background:#151b25;transform:translateY(-2px)}
+.social-link svg{width:19px;height:19px;fill:currentColor}
+
 </style>
 </head>
 
@@ -244,6 +286,17 @@ BACKEND / DEVELOPER PLAN:
 <footer id="about">
   <strong>NIGHTFLIX</strong><br>
   A responsive movie catalog template. Publish only posters, videos and links you have permission to use.
+  <div class="social-links" aria-label="Social media links">
+    <a class="social-link" href="" aria-label="Instagram" title="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5Zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5Zm5.25-3.25a1.25 1.25 0 1 1-1.25 1.25 1.25 1.25 0 0 1 1.25-1.25Z"/></svg>
+    </a>
+    <a class="social-link" href="" aria-label="YouTube" title="YouTube">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.12-2.12C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.58A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.12 2.12c1.88.58 9.38.58 9.38.58s7.5 0 9.38-.58a3 3 0 0 0 2.12-2.12A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8ZM9.6 15.5v-7l6 3.5-6 3.5Z"/></svg>
+    </a>
+    <a class="social-link" href="" aria-label="Facebook" title="Facebook">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13.5 22v-8h2.75l.5-3h-3.25V9.1c0-.87.29-1.6 1.72-1.6h1.83V4.82A24 24 0 0 0 14.8 4c-2.72 0-4.55 1.66-4.55 4.7V11H7.5v3h2.75v8h3.25Z"/></svg>
+    </a>
+  </div>
 </footer>
 
 <div class="toast" id="toast"></div>
