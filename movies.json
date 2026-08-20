@@ -5,7 +5,8 @@
     "year": 2026,
     "genre": "Action",
     "poster": "POSTER/spider-man-marvel-6000x4000-11025.jpg",
-    "link": "https://youtu.be/62bIsvRcPv0?si=hkP92sh5bk_grHwY"
+    "link": "https://youtu.be/62bIsvRcPv0?si=hkP92sh5bk_grHwY",
+    "addedAt": "2026-08-20T10:00:00"
   },
   {
     "id": 2,
@@ -13,15 +14,17 @@
     "year": 2026,
     "genre": "Sci-Fi",
     "poster": "POSTER/wp3405076-ironman-poster-wallpaper.jpg",
-    "link": "https://youtu.be/irVNGjRFZGk?si=dDOli3r7kRYjTbhP"
+    "link": "https://youtu.be/irVNGjRFZGk?si=dDOli3r7kRYjTbhP",
+    "addedAt": "2026-08-19T10:00:00"
   },
   {
     "id": 3,
-    "title": "AVATAR WAY IN WATER ",
+    "title": "AVATAR WAY IN WATER",
     "year": 2025,
     "genre": "Drama",
     "poster": "POSTER/wp9063021-avatar-2021-wallpapers.JPG",
-    "link": "https://youtu.be/nb_fFj_0rq8?si=ERH7Vj2kMcIwHvbM"
+    "link": "https://youtu.be/nb_fFj_0rq8?si=ERH7Vj2kMcIwHvbM",
+    "addedAt": "2026-08-18T10:00:00"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "year": 2025,
     "genre": "Thriller",
     "poster": "POSTER/wp9062828-avatar-2021-wallpapers.JPG",
-    "link": "https://youtu.be/8QVYLudMjJA?si=Epu-RGHhYBaQ7t31"
+    "link": "https://youtu.be/8QVYLudMjJA?si=Epu-RGHhYBaQ7t31",
+    "addedAt": "2026-08-17T10:00:00"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "year": 2025,
     "genre": "Action",
     "poster": "posters/movie5.jpg",
-    "link": ""
+    "link": "",
+    "addedAt": "2026-08-16T10:00:00"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "year": 2024,
     "genre": "Drama",
     "poster": "posters/movie6.jpg",
-    "link": ""
+    "link": "",
+    "addedAt": "2026-08-15T10:00:00"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "year": 2024,
     "genre": "Action",
     "poster": "posters/movie7.jpg",
-    "link": ""
+    "link": "",
+    "addedAt": "2026-08-14T10:00:00"
   },
   {
     "id": 8,
@@ -61,7 +68,8 @@
     "year": 2024,
     "genre": "Thriller",
     "poster": "posters/movie8.jpg",
-    "link": ""
+    "link": "",
+    "addedAt": "2026-08-13T10:00:00"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "year": 2024,
     "genre": "Comedy",
     "poster": "posters/movie9.jpg",
-    "link": ""
+    "link": "",
+    "addedAt": "2026-08-12T10:00:00"
   },
   {
     "id": 10,
@@ -77,7 +86,8 @@
     "year": 2023,
     "genre": "Thriller",
     "poster": "posters/movie10.jpg",
-    "link": ""
+    "link": "",
+    "addedAt": "2026-08-11T10:00:00"
   },
   {
     "id": 11,
@@ -85,7 +95,8 @@
     "year": 2023,
     "genre": "Sci-Fi",
     "poster": "posters/movie11.jpg",
-    "link": ""
+    "link": "",
+    "addedAt": "2026-08-10T10:00:00"
   },
   {
     "id": 12,
@@ -93,6 +104,16 @@
     "year": 2023,
     "genre": "Drama",
     "poster": "posters/movie12.jpg",
-    "link": ""
-  }
+    "link": "",
+    "addedAt": "2026-08-09T10:00:00"
+  },
+  {
+  "id": 13,
+  "title": "DHUANDHAR THE REVANGE",
+  "year": 2026,
+  "genre": "Action",
+  "poster": "POSTER/dhurandhar 2.jpg",
+  "link": "https://youtu.be/NHk7scrb_9I?si=a0OkbGaTOeYTAXvH",
+  "addedAt": "2026-08-20T15:00:00"
+}
 ]

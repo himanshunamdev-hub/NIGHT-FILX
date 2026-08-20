@@ -407,16 +407,44 @@ function getFilteredMovies(){
       .sort((a,b)=>b.__score-a.__score);
   }
 
-  if(activeGenre!=="All") list=list.filter(m=>m.genre===activeGenre);
+  if(activeGenre!=="All"){
+    list=list.filter(m=>m.genre===activeGenre);
+  }
 
   if(!q){
-    if(sort.value==="new") list.sort((a,b)=>(b.year||0)-(a.year||0));
-    if(sort.value==="old") list.sort((a,b)=>(a.year||0)-(b.year||0));
-    if(sort.value==="az") list.sort((a,b)=>String(a.title).localeCompare(String(b.title)));
-    if(sort.value==="za") list.sort((a,b)=>String(b.title).localeCompare(String(a.title)));
+    if(sort.value==="new"){
+      list.sort((a,b)=>{
+        const dateA=new Date(a.addedAt || 0).getTime();
+        const dateB=new Date(b.addedAt || 0).getTime();
+        return dateB-dateA;
+      });
+    }
+
+    if(sort.value==="old"){
+      list.sort((a,b)=>{
+        const dateA=new Date(a.addedAt || 0).getTime();
+        const dateB=new Date(b.addedAt || 0).getTime();
+        return dateA-dateB;
+      });
+    }
+
+    if(sort.value==="az"){
+      list.sort((a,b)=>
+        String(a.title||"").localeCompare(String(b.title||""))
+      );
+    }
+
+    if(sort.value==="za"){
+      list.sort((a,b)=>
+        String(b.title||"").localeCompare(String(a.title||""))
+      );
+    }
   }
+
   return list;
 }
+
+
 
 function renderPagination(totalPages){
   if(totalPages<=1){pagination.innerHTML="";return;}
