@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "title": "spider-man",
+    "year": 2026,
+    "genre": "Action",
+    "poster": "POSTER/spider-man-marvel-6000x4000-11025.jpg",
+    "link": "https://youtu.be/62bIsvRcPv0?si=hkP92sh5bk_grHwY"
+  },
+  {
+    "id": 2,
+    "title": "iron-man",
+    "year": 2026,
+    "genre": "Sci-Fi",
+    "poster": "POSTER/wp3405076-ironman-poster-wallpaper.jpg",
+    "link": "https://youtu.be/irVNGjRFZGk?si=dDOli3r7kRYjTbhP"
+  },
+  {
+    "id": 3,
+    "title": "AVATAR WAY IN WATER ",
+    "year": 2025,
+    "genre": "Drama",
+    "poster": "POSTER/wp9063021-avatar-2021-wallpapers.JPG",
+    "link": "https://youtu.be/nb_fFj_0rq8?si=ERH7Vj2kMcIwHvbM"
+  },
+  {
+    "id": 4,
+    "title": "AVATAR FIRE",
+    "year": 2025,
+    "genre": "Thriller",
+    "poster": "POSTER/wp9062828-avatar-2021-wallpapers.JPG",
+    "link": "https://youtu.be/8QVYLudMjJA?si=Epu-RGHhYBaQ7t31"
+  },
+  {
+    "id": 5,
+    "title": "Red Valley",
+    "year": 2025,
+    "genre": "Action",
+    "poster": "posters/movie5.jpg",
+    "link": ""
+  },
+  {
+    "id": 6,
+    "title": "City Lights",
+    "year": 2024,
+    "genre": "Drama",
+    "poster": "posters/movie6.jpg",
+    "link": ""
+  },
+  {
+    "id": 7,
+    "title": "Wild Chase",
+    "year": 2024,
+    "genre": "Action",
+    "poster": "posters/movie7.jpg",
+    "link": ""
+  },
+  {
+    "id": 8,
+    "title": "After Dark",
+    "year": 2024,
+    "genre": "Thriller",
+    "poster": "posters/movie8.jpg",
+    "link": ""
+  },
+  {
+    "id": 9,
+    "title": "Laugh Out Loud",
+    "year": 2024,
+    "genre": "Comedy",
+    "poster": "posters/movie9.jpg",
+    "link": ""
+  },
+  {
+    "id": 10,
+    "title": "Dark Forest",
+    "year": 2023,
+    "genre": "Thriller",
+    "poster": "posters/movie10.jpg",
+    "link": ""
+  },
+  {
+    "id": 11,
+    "title": "Neon City",
+    "year": 2023,
+    "genre": "Sci-Fi",
+    "poster": "posters/movie11.jpg",
+    "link": ""
+  },
+  {
+    "id": 12,
+    "title": "The Journey",
+    "year": 2023,
+    "genre": "Drama",
+    "poster": "posters/movie12.jpg",
+    "link": ""
+  }
+]
