@@ -1,3 +1,4 @@
+
 [
   {
     "id": 1,
@@ -6,6 +7,9 @@
     "genre": "Action",
     "poster": "POSTER/spider-man-marvel-6000x4000-11025.jpg",
     "link": "https://youtu.be/62bIsvRcPv0?si=hkP92sh5bk_grHwY",
+    "photos": [
+      "POSTER/spider-man-marvel-6000x4000-11025.jpg"
+    ],
     "addedAt": "2026-08-20T10:00:00"
   },
   {
@@ -15,6 +19,9 @@
     "genre": "Sci-Fi",
     "poster": "POSTER/wp3405076-ironman-poster-wallpaper.jpg",
     "link": "https://youtu.be/irVNGjRFZGk?si=dDOli3r7kRYjTbhP",
+    "photos": [
+      "POSTER/wp3405076-ironman-poster-wallpaper.jpg"
+    ],
     "addedAt": "2026-08-19T10:00:00"
   },
   {
@@ -24,6 +31,9 @@
     "genre": "Drama",
     "poster": "POSTER/wp9063021-avatar-2021-wallpapers.JPG",
     "link": "https://youtu.be/nb_fFj_0rq8?si=ERH7Vj2kMcIwHvbM",
+    "photos": [
+      "POSTER/wp9063021-avatar-2021-wallpapers.JPG"
+    ],
     "addedAt": "2026-08-18T10:00:00"
   },
   {
@@ -33,6 +43,9 @@
     "genre": "Thriller",
     "poster": "POSTER/wp9062828-avatar-2021-wallpapers.JPG",
     "link": "https://youtu.be/8QVYLudMjJA?si=Epu-RGHhYBaQ7t31",
+    "photos": [
+      "POSTER/wp9062828-avatar-2021-wallpapers.JPG"
+    ],
     "addedAt": "2026-08-17T10:00:00"
   },
   {
@@ -42,6 +55,9 @@
     "genre": "Action",
     "poster": "posters/movie5.jpg",
     "link": "",
+    "photos": [
+      "posters/movie5.jpg"
+    ],
     "addedAt": "2026-08-16T10:00:00"
   },
   {
@@ -51,6 +67,9 @@
     "genre": "Drama",
     "poster": "posters/movie6.jpg",
     "link": "",
+    "photos": [
+      "posters/movie6.jpg"
+    ],
     "addedAt": "2026-08-15T10:00:00"
   },
   {
@@ -60,6 +79,9 @@
     "genre": "Action",
     "poster": "posters/movie7.jpg",
     "link": "",
+    "photos": [
+      "posters/movie7.jpg"
+    ],
     "addedAt": "2026-08-14T10:00:00"
   },
   {
@@ -69,6 +91,9 @@
     "genre": "Thriller",
     "poster": "posters/movie8.jpg",
     "link": "",
+    "photos": [
+      "posters/movie8.jpg"
+    ],
     "addedAt": "2026-08-13T10:00:00"
   },
   {
@@ -78,6 +103,9 @@
     "genre": "Comedy",
     "poster": "posters/movie9.jpg",
     "link": "",
+    "photos": [
+      "posters/movie9.jpg"
+    ],
     "addedAt": "2026-08-12T10:00:00"
   },
   {
@@ -87,6 +115,9 @@
     "genre": "Thriller",
     "poster": "posters/movie10.jpg",
     "link": "",
+    "photos": [
+      "posters/movie10.jpg"
+    ],
     "addedAt": "2026-08-11T10:00:00"
   },
   {
@@ -96,6 +127,9 @@
     "genre": "Sci-Fi",
     "poster": "posters/movie11.jpg",
     "link": "",
+    "photos": [
+      "posters/movie11.jpg"
+    ],
     "addedAt": "2026-08-10T10:00:00"
   },
   {
@@ -105,9 +139,13 @@
     "genre": "Drama",
     "poster": "posters/movie12.jpg",
     "link": "",
+    "photos": [
+      "posters/movie12.jpg"
+    ],
     "addedAt": "2026-08-09T10:00:00"
   },
   {
+
   "id": 13,
   "title": "DHUANDHAR THE REVANGE",
   "year": 2026,
@@ -115,5 +153,20 @@
   "poster": "POSTER/dhurandhar 2.jpg",
   "link": "https://gofile.io/d/vnBAzvvO",
   "addedAt": "2026-08-20T15:00:00"
-}
+  },
+
+  {
+    "id": 14,
+    "title": "LEO",
+    "year": 2026,
+    "genre": "Action",
+    "poster": "POSTER/LEO POSTER.jpg",
+    "link": "https://youtu.be/Po3jStA673E?si=_KvxUEc22BhDLQ6J",
+    "photos": [
+      ""
+    ],
+    "addedAt": "2026-08-20T15:00:00"
+  }
 ]
+
+
