@@ -154,19 +154,18 @@
   "link": "https://gofile.io/d/vnBAzvvO",
   "addedAt": "2026-08-20T15:00:00"
   },
-
   {
-    "id": 14,
-    "title": "LEO",
-    "year": 2026,
-    "genre": "Action",
-    "poster": "POSTER/LEO POSTER.jpg",
-    "link": "https://youtu.be/Po3jStA673E?si=_KvxUEc22BhDLQ6J",
-    "photos": [
-      ""
-    ],
-    "addedAt": "2026-08-20T15:00:00"
-  }
+  "id": 14,
+  "title": "LEO",
+  "year": 2026,
+  "genre": "Action",
+  "poster": "POSTER/LEO POSTER.jpg",
+  "link": "https://youtu.be/Po3jStA673E?si=_KvxUEc22BhDLQ6J",
+  "photos": [
+    "POSTER/LEO POSTER.jpg"
+  ],
+  "addedAt": "2026-08-20T15:00:00"
+ }
 ]
 
 
