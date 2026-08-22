@@ -178,6 +178,18 @@
   ],
   "addedAt": "2026-08-21T15:00:00"
  }
+   {
+  "id": 16,
+  "title": "Lucky Baskhar",
+  "year": 2026,
+  "genre": "Action",
+  "poster": "POSTER/images.jpg",
+  "link": "https://bzwo-f48b2bde0e29.herokuapp.com/watch/501828/Lucky.Baskhar.2024.720p.NF.WEB-DL.DUAL.DDP5.1.H.264-Extr.mkv?hash=AgADKh",
+  "photos": [
+    "POSTER/images1.jpg"
+  ],
+  "addedAt": "2026-08-22T15:00:00"
+ }
 ]
 
 
