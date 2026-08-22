@@ -189,7 +189,18 @@
     "POSTER/images1.jpg"
   ],
   "addedAt": "2026-08-22T15:00:00"
- }
+ },
+    {
+  "id": 17,
+  "title": "The Greatest of All Time",
+  "year": 2026,
+  "genre": "Action",
+  "poster": "POSTER/images.jpg",
+  "link":"https://bzwo-f48b2bde0e29.herokuapp.com/watch/502220/GOAT_The_Greatest_of_All_Time_2024_720p_NF_WEB_DL_Hindi_AAC2_0_HEVC.mkv?hash=AgADRx",
+  "photos": [
+  ],
+  "addedAt": "2026-08-22T15:00:00"
+    }
 ]
 
 
