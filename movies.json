@@ -213,7 +213,30 @@
     ""
   ],
   "addedAt": "2026-08-23T15:00:00"
-    }
+    },
+    {
+  "id": 19,
+  "title": "Saiyaara ",
+  "year": 2026,
+  "genre": "Romance/Drama",
+  "poster": "POSTER/",
+  "link":"",
+  "photos": [
+    ""
+  ],
+  "addedAt": "2026-08-23T15:00:00"
+  },
+    "id": 20,
+  "title": "Shiddat ",
+  "year": 2026,
+  "genre": "Romance/Drama",
+  "poster": "POSTER/",
+  "link":"",
+  "photos": [
+    ""
+  ],
+  "addedAt": "2026-08-23T15:10:00"
+  },
 ]
 
 
